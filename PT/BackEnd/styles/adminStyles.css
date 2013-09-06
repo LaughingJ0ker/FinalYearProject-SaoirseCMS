@@ -1,0 +1,97 @@
+#mainLinks {
+	list-style: none;
+	padding: 0 0 0 0;
+	width: 100%;
+}
+
+#mainLinks div {
+	display: block;
+	background-color: #959595;
+	font-weight: bold;
+	margin: 1px;
+	cursor: pointer;
+	padding: 5 5 5 7px;
+}
+
+#mainLinks ul {
+	list-style: none;
+	padding: 0 0 0 0;
+}
+
+#mainLinks ul{
+	display: none;
+}
+
+#mainLinks ul li {
+	font-weight: normal;
+	cursor: auto;
+	background-color: #ddd;
+	padding: 0 0 0 0px;
+}
+
+#mainLinks a {
+	text-decoration: none;
+	display:block;
+	width:95%;
+}
+
+#mainLinks a:visited {
+	color:#3333CC;
+}
+#mainLinks a:hover {
+	color:black;
+}
+
+html, body{
+	height:100%;
+	min-height:90%;
+	margin:0px;
+	padding:0px;
+}
+
+#links{
+	background-color:#ddd;
+	height:100%;
+	width:17%;
+	float:left;
+}
+
+#content{
+	background-color:#ddd;
+	overflow:auto;
+	height:100%;
+	width:79%;
+	float:right;
+	padding-right:15px;
+	padding-left:15px;
+	
+}
+
+#wrapper{
+	width:90%;
+	height:95%;
+	min-height:90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#ddd;
+	border:3px solid #ddd;
+}
+
+
+input{
+text-align:center;
+}
+
+p#errorTxt{
+color:red;
+}
+
+th{
+text-transform:capitalize;
+}
+
+
+#notEditable{
+background-color:grey;
+}
+
